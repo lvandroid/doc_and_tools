@@ -31,7 +31,9 @@ vim爱好者编码神器,用习惯了真的舒服
 用github page写博客的神器
 
 [参考博客](https://www.lovebxm.com/2018/06/24/hexo-github-blog/)
+
 [hexo官网文档](https://hexo.io/zh-cn/docs/index.html)
+
 [NexT文档](http://theme-next.iissnan.com/theme-settings.html)
 
 
