@@ -1,9 +1,3 @@
----
-title: Mac工具配置
-tags: 
-notebook: mac 环境配置
----
-
 # Mac工具配置
 
 ### 1. 自己搭建高速Shadowsocks服务

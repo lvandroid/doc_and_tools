@@ -1,8 +1,3 @@
----
-title: VSCode插件设置
-tags: 
-notebook: mac工具
----
 # VSCode插件设置
 
 ## 一、设置
