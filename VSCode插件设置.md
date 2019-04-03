@@ -43,11 +43,11 @@ vim爱好者编码神器,用习惯了真的舒服
 
 设置token:
     
-    "evermonkey.token": "S=s33:U=7a4c7f:E=16a011e2b09:C=169dd11a538:P=1cd:A=en-devtoken:V=2:H=02fb7c2054423251b6c82c10b2ed069b",
+    "evermonkey.token": "S=s33:U=7a4c7f:E=16a011e2b09:C=169dd11a538:P=1cd:A=en-devtoken:V=2:H=02fb7c2054423251",
    
 设置url:
     
-    "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s33/notestore",
+    "evermonkey.noteStoreUrl": "https://app.yinxiang.com/notestore",
 
 ### 5. LeetCode
 
