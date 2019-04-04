@@ -50,6 +50,33 @@ gitbook update
 npm uninstall -g gitbook
 ```
 
-![](https://ws2.sinaimg.cn/large/006tKfTcly1g1qe7smyd5j30le0pvn0q.jpg)
+#### 流程
 
-![](https://ws2.sinaimg.cn/large/006tKfTcly1g1qe7uu9u6j30jb05sjs9.jpg)
+1. 在github创建新的repository
+2. 在gitbook创建新的book，并在setting中设置和github的同步
+3. 通过vscode，克隆 github上的repository到本地并打开操作
+4. 在vscode打开的文件夹根目录中，编写readme.md和summary.md文件
+ readme.md概述文件
+ summary.md目录文件
+5. 创建好后，在终端输入gitbook init，gitbook会根据summary.md文件创建文档结构。
+编辑对应文档
+6. 编辑完成之后，在终端输入 gitbook serve ，简历书籍服务器，在web浏览器中默认localhost:4000地址 进行访问。
+7. 完成之后，通过git提交到github（自动同步到gitbook）。可在gitbook保存和阅览。
+
+#### 输出
+
+1. gitbook serve命令可以自己启动web服务器，预览。
+2. Markdown Preview Enhanced默认预览就包括html。
+3. 要输出为PDF的话，有两种方式：
+4. 通过html打开，在html打印中，打印为pdf。
+5. 安装princexml插件。建议从princexml官网下载只接安装。
+
+> 使用gitbook命令时可能出现如下错误
+
+Gitbook使用时出现`Error loading version latest`
+
+    Cannot read property 'commands' of null
+
+**解决办法**
+
+下来进入到~/.gitbook/versions/3.2.3/目录中，删除掉node_modules和package.json。这样子gitbook就可以正常使用了
