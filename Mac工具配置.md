@@ -35,4 +35,21 @@ java -jar proxyee-down-main.jar
 
     sudo spctl --master-disable
 
+### 5. gitbook
 
+人人都是作家，快速排版
+
+[参考博客](http://wuxiaolong.me/2017/09/05/GitBookGuide/)
+
+```shell
+#Gitbook 是用 npm 安装的，命令行：
+sudo npm install -g gitbook-cli
+#更新最新版本：
+gitbook update
+#卸载
+npm uninstall -g gitbook
+```
+
+![](https://ws2.sinaimg.cn/large/006tKfTcly1g1qe7smyd5j30le0pvn0q.jpg)
+
+![](https://ws2.sinaimg.cn/large/006tKfTcly1g1qe7uu9u6j30jb05sjs9.jpg)
