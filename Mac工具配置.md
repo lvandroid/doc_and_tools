@@ -8,7 +8,13 @@ googlecloud可以免费使用一年，如果过期了再申请一个新的账号
 
 ### 2. 百度云不限速工具
 
-满速的下载，不用再买会员了
+满速的下载，不用再买会员了，有两种方式如下:
+
+> #### 破解试用会员方式
+
+[github地址](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS)
+
+> #### proxyDown
 
 **[参考博客](https://www.runningcheese.com/baiduyun)**
 
